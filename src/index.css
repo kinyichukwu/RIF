@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --body-normal-bold-font-family: "AeonikTRIAL-Bold", Helvetica;
+    --body-normal-bold-font-size: 16px;
+    --body-normal-bold-font-style: normal;
+    --body-normal-bold-font-weight: 700;
+    --body-normal-bold-letter-spacing: 0px;
+    --body-normal-bold-line-height: 24px;
+    --caption-small-regular-font-family: "Aeonik-Regular", Helvetica;
+    --caption-small-regular-font-size: 12px;
+    --caption-small-regular-font-style: normal;
+    --caption-small-regular-font-weight: 400;
+    --caption-small-regular-letter-spacing: 0px;
+    --caption-small-regular-line-height: 16px;
+    --caption-sub-header-h4-regular-font-family: "Aeonik-Regular", Helvetica;
+    --caption-sub-header-h4-regular-font-size: 20px;
+    --caption-sub-header-h4-regular-font-style: normal;
+    --caption-sub-header-h4-regular-font-weight: 400;
+    --caption-sub-header-h4-regular-letter-spacing: 0.20000000298023224px;
+    --caption-sub-header-h4-regular-line-height: 24px;
+    --new-stylestextbody-dark: rgba(81, 82, 81, 1);
+    --new-stylestextheading: rgba(41, 42, 41, 1);
+  }
+  
+  .frame {
+    align-items: flex-start;
+    border: 1px none;
+    display: flex;
+    gap: 37px;
+    min-height: 72px;
+    min-width: 326px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .div {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 12px;
+    position: relative;
+  }
+  
+  .frame .ellipse {
+    height: 48px;
+    position: relative;
+    width: 48px;
+  }
+  
+  .frame .div-2 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .frame .div-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .adebayo-salami {
+    color: var(--new-stylestextheading);
+    font-family: var(--caption-sub-header-h4-regular-font-family);
+    font-size: var(--caption-sub-header-h4-regular-font-size);
+    font-style: var(--caption-sub-header-h4-regular-font-style);
+    font-weight: var(--caption-sub-header-h4-regular-font-weight);
+    letter-spacing: var(--caption-sub-header-h4-regular-letter-spacing);
+    line-height: var(--caption-sub-header-h4-regular-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .data-analyst {
+    align-self: stretch;
+    color: var(--new-stylestextbody-dark);
+    font-family: var(--caption-small-regular-font-family);
+    font-size: var(--caption-small-regular-font-size);
+    font-style: var(--caption-small-regular-font-style);
+    font-weight: var(--caption-small-regular-font-weight);
+    letter-spacing: var(--caption-small-regular-letter-spacing);
+    line-height: var(--caption-small-regular-line-height);
+    position: relative;
+  }
+  
+  .frame .male-weekly {
+    color: var(--new-stylestextbody-dark);
+    font-family: var(--caption-small-regular-font-family);
+    font-size: var(--caption-small-regular-font-size);
+    font-style: var(--caption-small-regular-font-style);
+    font-weight: var(--caption-small-regular-font-weight);
+    letter-spacing: var(--caption-small-regular-letter-spacing);
+    line-height: var(--caption-small-regular-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .div-4 {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+  }
+  
+  .frame .div-5 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .frame .img {
+    height: 18px;
+    margin-bottom: -540px;
+    margin-left: -1871.19px;
+    position: relative;
+    width: 18px;
+  }
+  
+  .frame .text-wrapper {
+    color: #11453b;
+    font-family: var(--body-normal-bold-font-family);
+    font-size: var(--body-normal-bold-font-size);
+    font-style: var(--body-normal-bold-font-style);
+    font-weight: var(--body-normal-bold-font-weight);
+    letter-spacing: var(--body-normal-bold-letter-spacing);
+    line-height: var(--body-normal-bold-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
