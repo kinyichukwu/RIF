@@ -10,16 +10,15 @@ import Settings from "./pages/Settings";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
-  
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<MainPage />} />
 
-        <Route path="/2" element={<Admin />} />
-        <Route path="/3" element={<HelloWasiu />} />
-        <Route path="/4" element={<EasyPayTeam />} />
-        <Route path="/5" element={<Settings />} />
+        <Route path="/a" element={<Admin />} />
+        <Route path="/b" element={<HelloWasiu />} />
+        <Route path="/c" element={<EasyPayTeam />} />
+        <Route path="/d" element={<Settings />} />
       </Routes>
     </BrowserRouter>
   );
